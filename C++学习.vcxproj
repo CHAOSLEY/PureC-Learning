@@ -147,24 +147,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Log.h" />
+    <ClInclude Include="source\Log.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\bigstep.cpp" />
-    <ClCompile Include="src\exceed.cpp" />
-    <ClCompile Include="src\express.cpp" />
-    <ClCompile Include="src\forloop.cpp" />
-    <ClCompile Include="src\formore.cpp" />
-    <ClCompile Include="src\forstr1.cpp" />
-    <ClCompile Include="src\hecoct2.cpp" />
-    <ClCompile Include="src\if.cpp" />
-    <ClCompile Include="src\ifelse.cpp" />
-    <ClCompile Include="src\ifelseif.cpp" />
-    <ClCompile Include="src\Log.cpp" />
-    <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\hexoct1.cpp" />
-    <ClCompile Include="src\num_test.cpp" />
-    <ClCompile Include="src\plus_one.cpp" />
+    <ClCompile Include="source\arrayone.cpp" />
+    <ClCompile Include="source\bigstep.cpp" />
+    <ClCompile Include="source\bondini.cpp" />
+    <ClCompile Include="source\exceed.cpp" />
+    <ClCompile Include="source\express.cpp" />
+    <ClCompile Include="source\floatnum.cpp" />
+    <ClCompile Include="source\forloop.cpp" />
+    <ClCompile Include="source\formore.cpp" />
+    <ClCompile Include="source\forstr1.cpp" />
+    <ClCompile Include="source\hecoct2.cpp" />
+    <ClCompile Include="source\if.cpp" />
+    <ClCompile Include="source\ifelse.cpp" />
+    <ClCompile Include="source\ifelseif.cpp" />
+    <ClCompile Include="source\generalpart.cpp" />
+    <ClCompile Include="source\init.cpp" />
+    <ClCompile Include="source\Log.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\hexoct1.cpp" />
+    <ClCompile Include="source\morechar.cpp" />
+    <ClCompile Include="source\num_test.cpp" />
+    <ClCompile Include="source\plus_one.cpp" />
+    <ClCompile Include="source\typecast.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
